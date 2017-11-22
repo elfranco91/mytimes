@@ -61,9 +61,32 @@ margin-top:0px;
 text-align:left;
 width: 630px;
 }
+.text-content{ height: 250px;}
+.fall-canceled{
+  background-image: url("../images/img-girl.png");
+  background-repeat: no-repeat;
+
+}
+.pop-culture{
+  background-image: url("../images/img-man.png");
+  background-repeat: no-repeat;
+
+
+}
 .lead-story{
     display: block;
 }
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
 .content {
   display: flex;
 width: 1232px;
@@ -103,11 +126,14 @@ image.cookie {
 a {
     color: black;
 }
-.narrative{margin-top: 16px;}
+.narrative {margin-top: 16px;}
 p {
     display: block;
     margin-before: 1em;
     margin-after: 1em;
     margin-start: 0px;
     margin-end: 0px;
+}
+div: {
+  display: block;
 }
