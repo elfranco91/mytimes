@@ -39,7 +39,7 @@ body {
 }
 .logo span {
   color: MediumAquamarine;
-  position: relative;;
+  position: relative;
   left: 50px;
 }
 nav span {
@@ -88,9 +88,9 @@ width: 630px;
   flex-direction: column;
   width: 300px;
 }
-.stories{
+.stories {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   margin-top: 17px;
 }
