@@ -58,11 +58,12 @@ font-weight:bold;
 height:300px;
 justify-content: center;
 margin-top:15px;
-text-align:center;
+text-align: center;
 width: 630px;
 
 
 }
+
 
 .fall-canceled{
   background-image: url("../images/img-girl.png");
@@ -76,8 +77,12 @@ width: 630px;
   background-image: url("../images/img-man.png");
   background-repeat: no-repeat;
   width: 300px;
-
-
+}
+.cat{
+  background-image: url("../images/img-cat.png");
+  background-repeat: no-repeat;
+  width: 300px;
+}
 
 }
 .lead-story{
@@ -106,7 +111,7 @@ padding-top: 116px;
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-  flex-direction: wrap;
+
 }
 
 .large {
@@ -174,4 +179,9 @@ font-style: normal;
 }
 .row{
   flex-direction: row
+}
+.pad {
+
+  padding: 10px;
+
 }
